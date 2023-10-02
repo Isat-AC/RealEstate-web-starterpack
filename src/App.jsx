@@ -1,7 +1,13 @@
-
+import Header from "./header/header";
+import Hero from "./componets/hero";
+import "./index.css"
 function App() {
-  return (
-    <span>subscribe Zainkeepscode</span>
+  return (<div>
+<Header/>
+   <Hero/>
+   
+  </div>
+   
   );
 }
 
